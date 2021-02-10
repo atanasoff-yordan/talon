@@ -4,8 +4,9 @@ import logging
 
 import regex as re
 
-from talon.signature.constants import (SIGNATURE_MAX_LINES,
-                                       TOO_LONG_SIGNATURE_LINE)
+SIGNATURE_MAX_LINES = 11
+TOO_LONG_SIGNATURE_LINE = 60
+
 from talon.utils import get_delimiter
 
 log = logging.getLogger(__name__)
